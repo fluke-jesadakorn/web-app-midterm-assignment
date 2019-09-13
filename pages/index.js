@@ -10,7 +10,7 @@ const Div = styled.div`
     right:0;
     width:100%;
     height:100%;
-    background-color: lightblue;
+    background-color: lightcyan;
 `
 export default class Index extends React.Component{
     render(){
