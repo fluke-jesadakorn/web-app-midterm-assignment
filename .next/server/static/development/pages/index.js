@@ -102,22 +102,15 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Content; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_picture_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-picture-component */ "react-picture-component");
-/* harmony import */ var react_picture_component__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_picture_component__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Fluke\\Desktop\\webapp\\pages\\Component\\content.js";
+var _jsxFileName = "C:\\Users\\Fluke\\Desktop\\web-app-midterm\\pages\\Component\\content.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
- //import pic from '../images/pic1.jpg'
 
-
-const images = {
-  pic1: '../images/pic1.jpg'
-};
 const Body = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.body`
     text-align:center;
 `;
@@ -127,34 +120,28 @@ const H1 = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h1`
 const Image = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.body`
     
 `;
-class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+class Content extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return __jsx(Body, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22
+        lineNumber: 18
       },
       __self: this
     }, __jsx(H1, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 19
       },
       __self: this
-    }, "Thailand seeks US$251 million for palace budget, a 13% hike"), __jsx(Image, {
+    }, "Thailand seeks US$251 million for palace budget, a 13% hike"), __jsx("img", {
+      src: "/static/images/pic1.jpg",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26
+        lineNumber: 22
       },
       __self: this
-    }, __jsx(react_picture_component__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      images: images,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 27
-      },
-      __self: this
-    })));
+    }));
   }
 
 }
@@ -175,7 +162,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Fluke\\Desktop\\webapp\\pages\\Component\\navbar.js";
+var _jsxFileName = "C:\\Users\\Fluke\\Desktop\\web-app-midterm\\pages\\Component\\navbar.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -245,7 +232,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Component_navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Component/navbar */ "./pages/Component/navbar.js");
 /* harmony import */ var _Component_content__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Component/content */ "./pages/Component/content.js");
-var _jsxFileName = "C:\\Users\\Fluke\\Desktop\\webapp\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\Fluke\\Desktop\\web-app-midterm\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -259,7 +246,7 @@ const Div = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div`
     right:0;
     width:100%;
     height:100%;
-    background-color: lightblue;
+    background-color: lightcyan;
 `;
 class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
@@ -295,7 +282,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Fluke\Desktop\webapp\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\Fluke\Desktop\web-app-midterm\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
@@ -308,17 +295,6 @@ module.exports = __webpack_require__(/*! C:\Users\Fluke\Desktop\webapp\pages\ind
 /***/ (function(module, exports) {
 
 module.exports = require("react");
-
-/***/ }),
-
-/***/ "react-picture-component":
-/*!******************************************!*\
-  !*** external "react-picture-component" ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-picture-component");
 
 /***/ }),
 
