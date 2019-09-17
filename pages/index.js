@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import Nav from './Component/navbar'
-import Body from './Component/content'
+import Nav from './navbar'
+import Content from './content'
 const Div = styled.div`
-    position:fixed;
+    position:absolute;
     padding:0;
     margin:0;
     top:0;
@@ -12,12 +12,14 @@ const Div = styled.div`
     height:100%;
     background-color: lightcyan;
 `
+
 export default class Index extends React.Component{
     render(){
         return(
             <Div>
-                <Nav/>
-                <Body/>
+                <Nav>
+                    <Content/>
+                </Nav>
             </Div>
         )
     }
