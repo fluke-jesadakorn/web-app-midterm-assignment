@@ -12031,7 +12031,7 @@ var _jsxFileName = "C:\\Users\\Fluke\\Desktop\\web-app-midterm\\pages\\navbar.js
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 function _templateObject2() {
-  const data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    display: inline;\n    margin:55px;\n    text-decoration: none;\n"]);
+  const data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    display: inline;\n    margin:55px;\n    text-decoration: none;\n    padding : 10px;\n\n    &:hover {\n        background-color: palevioletred;\n        color: white;\n    }\n"]);
 
   _templateObject2 = function () {
     return data;
@@ -12041,7 +12041,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  const data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    display:block;\n    background-color:green;\n    text-align:center;\n    padding:10px;\n    margin-left:0;\n    text-decoration: none;\n    padding-bottom : 15px;\n"]);
+  const data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    display:block;\n    background-color:green;\n    text-align:center;\n    padding:10px;\n    margin-left:0;\n"]);
 
   _templateObject = function () {
     return data;
@@ -12060,95 +12060,95 @@ class Nav extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     return __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22
+        lineNumber: 26
       },
       __self: this
     }, __jsx(Navbar, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 27
       },
       __self: this
     }, __jsx(Button, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 28
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
       href: "/",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
+        lineNumber: 29
       },
       __self: this
     }, __jsx("a", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
+        lineNumber: 29
       },
       __self: this
     }, "Home"))), __jsx(Button, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27
+        lineNumber: 31
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
       href: "/infomation",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28
+        lineNumber: 32
       },
       __self: this
     }, __jsx("a", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28
+        lineNumber: 32
       },
       __self: this
     }, "Infomation"))), __jsx(Button, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30
+        lineNumber: 34
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
       href: "/about",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31
+        lineNumber: 35
       },
       __self: this
     }, __jsx("a", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31
+        lineNumber: 35
       },
       __self: this
     }, "About"))), __jsx(Button, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33
+        lineNumber: 37
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
       href: "/login",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34
+        lineNumber: 38
       },
       __self: this
     }, __jsx("a", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34
+        lineNumber: 38
       },
       __self: this
     }, "Login")))), __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37
+        lineNumber: 41
       },
       __self: this
     }, this.props.children));

@@ -7,13 +7,17 @@ const Navbar = styled.div`
     text-align:center;
     padding:10px;
     margin-left:0;
-    text-decoration: none;
-    padding-bottom : 15px;
 `
 const Button = styled.span`
     display: inline;
     margin:55px;
     text-decoration: none;
+    padding : 10px;
+
+    &:hover {
+        background-color: palevioletred;
+        color: white;
+    }
 `
 
 export default class Nav extends React.Component{
@@ -22,7 +26,7 @@ export default class Nav extends React.Component{
             <div>
             <Navbar>
                 <Button>
-                    <Link href = "/"><a>Home</a></Link>
+                <Link href = "/"><a>Home</a></Link>
                 </Button>
                 <Button>
                 <Link href = "/infomation"><a>Infomation</a></Link>
