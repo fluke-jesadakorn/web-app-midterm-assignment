@@ -29,7 +29,7 @@ export default class About extends React.Component{
                 <h1 style = {h1}>RIP</h1>
                 <h2 style = {center}>ธงชัย บุตรชาติ 5835512017</h2>
                 <h2 style = {center}>สิริเทพ ทองด้วง 5835512107</h2>
-                <h2 style = {center}>เจษฎรกร เกิดหนู 5835512119</h2>
+                <h2 style = {center}>เจษฎากร เกิดหนู 5835512119</h2>
                 <h2 style = {center}>Pornprom</h2>
                 </Nav>
             </div>
