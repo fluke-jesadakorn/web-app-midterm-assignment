@@ -12005,7 +12005,7 @@ class Nav extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!***************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Finfomation&absolutePagePath=C%3A%5CUsers%5CFluke%5CDesktop%5Cweb-app-midterm%5Cpages%5Cinfomation.js ***!
   \***************************************************************************************************************************************************/
@@ -12028,5 +12028,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=infomation.js.map
