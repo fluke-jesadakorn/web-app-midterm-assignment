@@ -12,9 +12,9 @@
     "webpack": "^4.40.2"
   },
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 7000",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 7000"
   },
   "eslintConfig": {
     "extends": "react-app"
